@@ -21,8 +21,8 @@
 			<div class="content">
 				<div id="large-header" class="large-header">
 					<canvas id="demo-canvas"></canvas>
-					<h1 class="main-title"><span class="thin">MATT</span> HOVA </h1>
-					<p class="nav"> <a href="https://www.linkedin.com/pub/matthew-hovanec/56/601/404" target="_blank"><i class="fa fa-linkedin"></a></i>
+					<h1 class="main-title fade"><span class="thin">MATT</span> HOVA </h1>
+					<p class="nav fade2"> <a href="https://www.linkedin.com/pub/matthew-hovanec/56/601/404" target="_blank"><i class="fa fa-linkedin"></a></i>
 <a href="mailto:matthova87@gmail.com"><i class="fa fa-envelope-o"></i></a> <a href="https://instagram.com/matt_hova/" target="_blank"><i class="fa fa-instagram"></i></a> <a href="https://twitter.com/matt_hova" target="_blank"><i class="fa fa-twitter"></i></a></p>
 				</div>
 
@@ -32,5 +32,11 @@
 		<script src="js/EasePack.min.js"></script>
 		<script src="js/rAF.js"></script>
 		<script src="js/atoms.js"></script>
+		<!-- Fade in on load script -->
+		<script src="js/jquery.min.js"></script>
+		<script>
+			$(".fade").hide(0).delay(400).fadeIn(1000);
+			$(".fade2").hide(0).delay(500).fadeIn(1000);
+		</script>
 	</body>
 </html>
